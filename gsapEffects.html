@@ -34,6 +34,7 @@
                 return gsap.to(targets, {
                     duration: config.duration,
                     opacity: 0,
+                    repeat: -1,
                 })
             },
             defaults: {duration: 2}, // defaults get applied to any "config" object passed to the effect
